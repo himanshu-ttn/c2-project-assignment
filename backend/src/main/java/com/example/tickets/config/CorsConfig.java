@@ -26,7 +26,8 @@ public class CorsConfig {
                 "Authorization",
                 "Content-Type",
                 "Origin",
-                "X-Requested-With"
+                "X-Requested-With",
+                "X-API-Key"
         ));
         config.setAllowCredentials(true);
 
